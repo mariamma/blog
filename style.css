@@ -1,0 +1,96 @@
+/*Global settings for body*/
+
+body
+{
+#border-top:10px solid #0099cc;
+background: white;
+font-family:'Open Sans', sans-serif;
+color:#333333;
+}
+
+/* Header */
+header
+{
+padding:5px;
+background-color: #0099cc;
+position:relative;
+width:auto;
+max-width:900px;
+margin: 0 auto 50px auto;
+}
+
+header h1
+{
+margin: 30px 0 0 0;
+font-size: 55px;
+color: white;
+font-family: 'Open Sans';
+}
+
+header p
+{
+font-family: 'Open Sans', sans-serif;
+font-size: 16px;
+color: #4A463B;
+margin-left:132px;
+}
+
+header nav ul
+{
+list-style:none;
+}
+
+header nav ul li
+{
+display:block;
+float:left;
+padding:3px 15px;
+}
+
+header nav ul li a
+{
+font-family: 'Open Sans', sans-serif;
+color: #4A463B;
+text-transform: uppercase;
+transition: all .25s ease;
+}
+
+header nav ul li a:hover
+{
+color: #0099cc;
+}
+
+
+.columns
+{
+width:auto;
+max-width:800px;
+margin:0 auto;
+padding:70px 0 45px 0;
+}
+
+.columns h2{
+color: #696969;
+}
+
+.columns nav ul li{
+line-height: 2.8;
+}
+
+.columns nav ui li a{
+font-family: 'Open Sans', sans-serif;
+color: #4A463B;
+text-color: #696969;
+text-decoration: none;
+font-size: 16px;
+}
+
+#boxcontent
+{
+width:auto;
+max-width:900px;
+margin:0 auto;
+padding:50px 15px 45px 15px;
+background-color: #F0F8FF;
+}
+
