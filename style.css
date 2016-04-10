@@ -95,3 +95,19 @@ margin-bottom: 40px;
 {
 text-align: justify;
 }
+
+#footer {
+width:auto;
+height:70px;
+background-color: #0099cc;
+#line-height: 70%;
+position:relative;
+width:auto;
+max-width:900px;
+color: white;
+margin: 0 auto 40px auto;
+}
+
+#footer p{
+ padding-top:25px;
+}
