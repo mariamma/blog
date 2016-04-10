@@ -15,12 +15,12 @@ background-color: #0099cc;
 position:relative;
 width:auto;
 max-width:900px;
-margin: 0 auto 50px auto;
+margin: 0 auto 40px auto;
 }
 
 header h1
 {
-margin: 30px 0 0 0;
+margin: 20px 0 0 0;
 font-size: 55px;
 color: white;
 font-family:'Futura';
@@ -38,8 +38,8 @@ margin-left:132px;
 
 header nav ul
 {
-border-top:5px solid #0099cc;
-border-bottom: 5px solid #0099cc;
+#border-top:5px solid #0099cc;
+#border-bottom: 5px solid #0099cc;
 list-style:none;
 }
 
@@ -47,14 +47,18 @@ header nav ul li
 {
 display:block;
 float:right;
-padding:3px 15px;
+padding-right: 0px;
+padding-left: 15px;
+padding-top: 20px;
+padding-bottom: 20px;
 }
 
 header nav ul li a
 {
 font-family: 'Open Sans', sans-serif;
-color: #4d4d4d;
-text-transform: uppercase;
+color: #0099cc;
+text-decoration: none;
+#text-transform: uppercase;
 transition: all .25s ease;
 }
 
@@ -68,7 +72,7 @@ color: #333333;
 width:auto;
 max-width:875px;
 margin:0 auto;
-padding: 10px 15px 40px 15px;
+padding: 25px 15px 40px 15px;
 #background-color: #F0F8FF;
 }
 
