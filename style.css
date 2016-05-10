@@ -74,12 +74,14 @@ color: #333333;
 	border: 1px solid #ddd;
 	width: 310px;
     margin: auto;
+    max-width:100%;
 }
 
 #textbox{
     width: 350px;
     padding: 0px;
     margin: auto;
+    max-width:100%;
 }
 
 #textbox nav ul{
