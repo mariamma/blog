@@ -67,6 +67,32 @@ header nav ul li a:hover
 color: #333333;
 }
 
+#textline p{
+ 	text-align: center;
+	background-color: #f2f2f2; 
+	padding: 10px;
+	border: 1px solid #ddd;
+	width: 310px;
+    margin: auto;
+}
+
+#textbox{
+    width: 350px;
+    padding: 0px;
+    margin: auto;
+}
+
+#textbox nav ul{
+list-style-type: none;
+padding: 0;
+border: 1px solid #ddd;
+}
+
+#textbox nav ul li{
+padding: 8px 16px;
+border-bottom: 1px solid #ddd;
+}
+
 #boxcontent
 {
 width:auto;
@@ -91,9 +117,43 @@ border-bottom: 1px solid #dedede;
 margin-bottom: 40px;
 }
 
-#boxcontent p 
+#boxcontent
 {
 text-align: justify;
+line-height: 25px;
+font-size: 16px;
+}
+
+#boxcontent ol li h3{
+color: #0099cc;
+}
+
+.custom-counter {
+    margin-left: 0;
+    padding-right: 0;
+    list-style-type: none;
+}
+
+.custom-counter li {
+    counter-increment: step-counter;
+}
+
+.custom-counter h3::before {
+    content: counter(step-counter)".";
+    margin-right: 5px;
+    #font-size: 80%;
+    color: #0099cc;
+    font-weight: bold;
+    #padding: 3px 8px;
+    border-radius: 3px;
+}
+
+#boxcontent figure { 
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 #footer {
