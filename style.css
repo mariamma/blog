@@ -10,22 +10,22 @@ color:#333333;
 /* Header */
 header
 {
-padding:5px;
+#padding:5px;
 background-color: #0099cc;
 position:relative;
 width:auto;
-max-width:900px;
-margin: 0 auto 40px auto;
+max-width:850px;
+margin:auto;
 }
 
 header h1
 {
-margin: 20px 0 0 0;
-font-size: 55px;
+margin:auto;
+font-size: 40px;
 color: white;
 font-family:'Futura';
 text-align: center;
-letter-spacing: 1px;
+letter-spacing: 3px;
 }
 
 header p
@@ -49,8 +49,9 @@ display:block;
 float:right;
 padding-right: 0px;
 padding-left: 15px;
-padding-top: 20px;
-padding-bottom: 20px;
+padding-top: 0px;
+padding-bottom: 25px;
+font-size:16px;
 }
 
 header nav ul li a
@@ -78,21 +79,22 @@ color: #333333;
 }
 
 #textbox{
-    width: 350px;
+    width: 330px;
     padding: 0px;
     margin: auto;
     max-width:100%;
 }
 
 #textbox nav ul{
-list-style-type: none;
-padding: 0;
-border: 1px solid #ddd;
+	list-style-type: none;
+	padding: 0;
+	border: 1px solid #ddd;
 }
 
 #textbox nav ul li{
-padding: 8px 16px;
-border-bottom: 1px solid #ddd;
+	padding: 8px 16px;
+	border-bottom: 1px solid #ddd;
+    max-width:100%;
 }
 
 #boxcontent
@@ -168,8 +170,5 @@ width:auto;
 max-width:900px;
 color: white;
 margin: 0 auto 40px auto;
-}
-
-#footer p{
- padding-top:25px;
+text-align:center;
 }
